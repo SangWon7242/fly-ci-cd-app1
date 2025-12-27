@@ -21,8 +21,8 @@ public class HomeController {
     }
 
     System.out.println("모든 환경에서 출력");
-    // log.info("개발/운영 환경에서만 출력");
-    log.debug("개발/테스트 환경에서만 출력");
+    log.info("개발/운영 환경에서만 출력");
+    // log.debug("개발/테스트 환경에서만 출력");
 
     return "main1, hostname : %s".formatted(localhost.getHostName());
   }
