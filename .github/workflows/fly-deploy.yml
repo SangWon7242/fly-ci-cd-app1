@@ -4,7 +4,12 @@ on:
     branches:
       - main
     paths:
-      - "backend/**" # backend 폴더가 변경될 때만 실행되도록 최적화
+      - .github/workflows/*.yml
+      - backend/src/**
+      - backend/build.gradle.kts
+      - backend/settings.gradle.kts
+      - backend/fly.toml
+      - backend/Dockerfile
 
 jobs:
   deploy:
