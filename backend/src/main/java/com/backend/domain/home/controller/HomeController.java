@@ -18,6 +18,6 @@ public class HomeController {
       throw new RuntimeException(e);
     }
 
-    return "main, hostname : %s".formatted(localhost.getHostName());
+    return "main1, hostname : %s".formatted(localhost.getHostName());
   }
 }
