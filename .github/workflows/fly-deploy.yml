@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - 'backend/**' # backend 폴더가 변경될 때만 실행되도록 최적화
+      - "backend/**" # backend 폴더가 변경될 때만 실행되도록 최적화
 
 jobs:
   deploy:
